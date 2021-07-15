@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Creative v6.0.5 (https://startbootstrap.com/theme/creative)
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #28a745;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #f4623a;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0px 10px 10px 10px;
+  width: 98.3%;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.form-box-login {
+    width: 450px;
+    height: 590px;
+    position: relative;
+    margin: 1% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form-box-signin {
+    width: 450px;
+    height: 790px;
+    position: relative;
+    margin: 1% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 260px;
+    margin: 18% auto;
+    position: relative;
+    font-size: 12px;
+    box-shadow: 0 0 20px 9px #E0E0E0;
+    border-radius: 10px;
+}
+
+.toggle-btn {
+    padding: 11px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+}
+
+.login-btn, .signin-btn {
+    width: 260px;
+    margin: 18% auto;
+    color: #000000;
+    position: relative;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+#elegir-login {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(87deg, rgba(34,193,195,1) 0%, rgba(66,221,65,1) 100%);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+#elegir-signin {
+    top: 0;
+    left: 130px;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(87deg, rgba(34,193,195,1) 0%, rgba(66,221,65,1) 100%);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.redes-sociales {
+    margin: -30px auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.input-group {
+    top: 250px;
+    position: absolute;
+    width: 380px;
+    transition: 0.8s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-size: 12px;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.estado-residencia, .tipou {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-size: 12px;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 98%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    background: rgb(34,193,195);
+    background: linear-gradient(87deg, rgba(34,193,195,1) 0%, rgba(66,221,65,1) 100%);
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.check-box {
+    margin: 20px 0px 0px 10px;
+}
+
+span {
+    cursor: default;
+    color: #757575;
+    font-size: 12px;
+    left: 25px;
+    bottom: 15px;
+}
+
+a {
+    cursor: pointer;
+    font-size: 13px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+h8 {
+    cursor: default;
+    font-size: 12px;
+}
+
+h7, .terminos{
+    cursor: default;
+    font-size: 10px;
+}
+
+#login, #registrar {
+    left: 34px;
+}
+
+.curva {
+    position: relative;
+    width: 98%;
+    top: 130px;
+}
